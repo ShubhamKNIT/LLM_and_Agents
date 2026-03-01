@@ -1,4 +1,4 @@
-from ollama_model import get_chat_model
+from utils.ollama_model import get_chat_model
 from langchain_core.prompts import ChatPromptTemplate
 
 def main():

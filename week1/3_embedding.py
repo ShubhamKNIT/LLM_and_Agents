@@ -1,4 +1,4 @@
-from ollama_model import get_embedding_model
+from utils.ollama_model import get_embedding_model
 
 def main():
     # Initialize the Ollama LLM
