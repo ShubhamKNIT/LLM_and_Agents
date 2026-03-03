@@ -7,7 +7,7 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 from langchain_core.prompts import ChatPromptTemplate
 from utils.prompts import get_sytem_prompt
-from study_trends.pretty_print import pretty_print
+from src.utils.pretty_print import pretty_print
 
 
 def get_trends(ticker, start_date, end_date):
