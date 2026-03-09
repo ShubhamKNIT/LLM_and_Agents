@@ -7,9 +7,7 @@ from rag.prompts import get_toc_prompt
 from langchain_core.prompts import ChatPromptTemplate
 from rag.rag_utils import (
     extract_json,
-    roman_to_int,
-    slice_pdf,
-    pdf_to_txt
+    roman_to_int
 )
 import json
 

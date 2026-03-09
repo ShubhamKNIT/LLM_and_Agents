@@ -58,8 +58,6 @@ def pdf_to_txt(input_pdf, output_txt_path):
 
     print(f"Extracted text from {input_pdf} and saved to {output_txt_path}")
 
-def pdf_to_mark
-
 def sanitize_filename(name: str) -> str:
     # Remove invalid filename characters
     name = re.sub(r'[<>:"/\\|?*]', '', name)
